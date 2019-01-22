@@ -34,3 +34,20 @@ if(place_meeting(x, y + vsp, o_wall)) {
 
 y += vsp;
 
+// Animation
+if(!place_meeting(x, y + 1, o_wall)) {
+	sprite_index = s_player_A;
+	image_speed = 0;
+	image_index = sign(vsp) > 0 ? 1 : 0;
+} else {
+	image_speed = 1;
+	if(hsp == 0) {
+		sprite_index = s_player;
+	} else {
+		sprite_index = s_player_R;
+	}
+}
+
+if(hsp != 0) {
+	image_xscale = sign(hsp);
+}
