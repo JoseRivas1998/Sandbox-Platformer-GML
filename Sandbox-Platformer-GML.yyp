@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "13d3287f-62c3-48e1-95df-a6363e3266d6",
+            "Value": {
+                "id": "599aa4fc-dc5c-4709-b269-7717a662acc6",
+                "resourcePath": "sprites\\s_mountains\\s_mountains.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "163bb28e-dc29-4c1d-bcb9-5bdb0f07bfcf",
             "Value": {
                 "id": "cd2ff68d-4f9a-4dd6-9099-d7cc3c995d62",
@@ -140,6 +148,14 @@
                 "id": "92ee66b5-b8e9-4996-8ef4-a520f0351d01",
                 "resourcePath": "sprites\\s_player_R\\s_player_R.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44bed2a2-fc5e-4571-8118-c84c3b8b48bc",
+            "Value": {
+                "id": "60aa0cce-c432-4fb1-be80-8c0dd375071c",
+                "resourcePath": "rooms\\rMenu\\rMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "c6e68138-09a0-41c7-8c74-6d561073eb9d",
+            "Value": {
+                "id": "4b74f13c-76c5-417a-87e0-ad943659f870",
+                "resourcePath": "sprites\\s_trees\\s_trees.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca66c534-df15-46ef-a14d-c65f221f5f71",
             "Value": {
                 "id": "9b0e4141-01a7-439b-bbec-1d461ce90741",
@@ -292,6 +316,14 @@
                 "id": "7f5bbe4b-3589-4834-a874-575cd4c119c7",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d30157ab-16ae-4a95-b26f-4c5910d2587f",
+            "Value": {
+                "id": "05d7756b-2ec3-49c0-ac9c-564269d03520",
+                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -364,6 +396,14 @@
                 "id": "5c289192-4951-4ccb-96a1-1f95667dd4ba",
                 "resourcePath": "objects\\o_transition\\o_transition.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f130af76-2b55-4a79-a33e-676aeb250f02",
+            "Value": {
+                "id": "840726b9-cb5b-40ac-b0c0-24215c71bd0e",
+                "resourcePath": "fonts\\f_menu\\f_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
