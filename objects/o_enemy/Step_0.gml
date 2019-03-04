@@ -37,5 +37,6 @@ if(!place_meeting(x, y + 1, o_wall)) {
 }
 
 if(hsp != 0) {
-	image_xscale = sign(hsp);
+	image_xscale = sign(hsp) * size;
 }
+image_yscale = size;

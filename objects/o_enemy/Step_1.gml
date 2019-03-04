@@ -6,8 +6,9 @@ if(hp <= 0) {
 		hsp = lengthdir_x(4, direction);
 		vsp = lengthdir_y(4, direction) - 2;
 		if(sign(hsp) != 0) {
-			image_xscale = sign(hsp);
+			image_xscale = sign(hsp) * other.size;
 		}
+		image_yscale = other.size;
 	}
 	instance_destroy();
 }
