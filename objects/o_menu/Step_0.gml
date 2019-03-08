@@ -20,6 +20,7 @@ if(menu_control) {
 	}
 	
 	if(keyboard_check_pressed(vk_enter)) {
+		audio_play_sound(snDeath, 10, false);
 		menu_x_target = gui_width + 200;
 		menu_committed = menu_cursor;
 		ScreenShake(4, 30);
