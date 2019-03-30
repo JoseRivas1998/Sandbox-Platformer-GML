@@ -11,4 +11,11 @@ if(hp <= 0) {
 		image_yscale = other.size;
 	}
 	instance_destroy();
+	if(instance_exists(o_player)) {
+		global.kills++;
+		global.killsThisRoom++;
+		with(o_game) {
+			killTextScale = 2;
+		}
+	}
 }
